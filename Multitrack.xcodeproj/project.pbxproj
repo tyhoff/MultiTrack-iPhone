@@ -14,7 +14,14 @@
 		2F4D871B157BE262007E2A75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D871A157BE262007E2A75 /* main.m */; };
 		2F4D871F157BE262007E2A75 /* MultitrackAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D871E157BE262007E2A75 /* MultitrackAppDelegate.m */; };
 		2F4D8722157BE262007E2A75 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D8720157BE262007E2A75 /* MainStoryboard.storyboard */; };
-		2F4D8725157BE262007E2A75 /* MultitrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D8724157BE262007E2A75 /* MultitrackViewController.m */; };
+		2F4D8730157BF949007E2A75 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D872F157BF949007E2A75 /* README.markdown */; };
+		2FFA2C11157C1E5C00FDDB16 /* FMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA2C0C157C1E5C00FDDB16 /* FMViewController.m */; };
+		2FFA2C12157C1E5C00FDDB16 /* StopWatchBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA2C0E157C1E5C00FDDB16 /* StopWatchBrain.m */; };
+		2FFA2C13157C1E5C00FDDB16 /* StopwatchDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA2C10157C1E5C00FDDB16 /* StopwatchDetailsViewController.m */; };
+		2FFA2C18157C1E6400FDDB16 /* FMMoveTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA2C15157C1E6400FDDB16 /* FMMoveTableView.m */; };
+		2FFA2C19157C1E6400FDDB16 /* FMMoveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA2C17157C1E6400FDDB16 /* FMMoveTableViewCell.m */; };
+		2FFA2C1C157C1E9E00FDDB16 /* plus2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFA2C1B157C1E9E00FDDB16 /* plus2.png */; };
+		2FFA2C1E157C20A100FDDB16 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFA2C1D157C20A100FDDB16 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +29,26 @@
 		2F4D870E157BE262007E2A75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2F4D8710157BE262007E2A75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F4D8712157BE262007E2A75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2F4D8716157BE262007E2A75 /* Multitrack-Info.plist */ = {isa = PBXFileReference; path = "Multitrack-Info.plist"; sourceTree = "<group>"; };
+		2F4D8716157BE262007E2A75 /* Multitrack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multitrack-Info.plist"; sourceTree = "<group>"; };
 		2F4D8718157BE262007E2A75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F4D871A157BE262007E2A75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F4D871C157BE262007E2A75 /* Multitrack-Prefix.pch */ = {isa = PBXFileReference; path = "Multitrack-Prefix.pch"; sourceTree = "<group>"; };
-		2F4D871D157BE262007E2A75 /* MultitrackAppDelegate.h */ = {isa = PBXFileReference; path = MultitrackAppDelegate.h; sourceTree = "<group>"; };
+		2F4D871C157BE262007E2A75 /* Multitrack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multitrack-Prefix.pch"; sourceTree = "<group>"; };
+		2F4D871D157BE262007E2A75 /* MultitrackAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultitrackAppDelegate.h; sourceTree = "<group>"; };
 		2F4D871E157BE262007E2A75 /* MultitrackAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultitrackAppDelegate.m; sourceTree = "<group>"; };
 		2F4D8721157BE262007E2A75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2F4D8723157BE262007E2A75 /* MultitrackViewController.h */ = {isa = PBXFileReference; path = MultitrackViewController.h; sourceTree = "<group>"; };
-		2F4D8724157BE262007E2A75 /* MultitrackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultitrackViewController.m; sourceTree = "<group>"; };
+		2F4D872F157BF949007E2A75 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		2FFA2C0B157C1E5C00FDDB16 /* FMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMViewController.h; sourceTree = "<group>"; };
+		2FFA2C0C157C1E5C00FDDB16 /* FMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMViewController.m; sourceTree = "<group>"; };
+		2FFA2C0D157C1E5C00FDDB16 /* StopWatchBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatchBrain.h; sourceTree = "<group>"; };
+		2FFA2C0E157C1E5C00FDDB16 /* StopWatchBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatchBrain.m; sourceTree = "<group>"; };
+		2FFA2C0F157C1E5C00FDDB16 /* StopwatchDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopwatchDetailsViewController.h; sourceTree = "<group>"; };
+		2FFA2C10157C1E5C00FDDB16 /* StopwatchDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopwatchDetailsViewController.m; sourceTree = "<group>"; };
+		2FFA2C14157C1E6400FDDB16 /* FMMoveTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMMoveTableView.h; path = Multitrack/FMFramework/FMMoveTableView.h; sourceTree = "<group>"; };
+		2FFA2C15157C1E6400FDDB16 /* FMMoveTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMMoveTableView.m; path = Multitrack/FMFramework/FMMoveTableView.m; sourceTree = "<group>"; };
+		2FFA2C16157C1E6400FDDB16 /* FMMoveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMMoveTableViewCell.h; path = Multitrack/FMFramework/FMMoveTableViewCell.h; sourceTree = "<group>"; };
+		2FFA2C17157C1E6400FDDB16 /* FMMoveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMMoveTableViewCell.m; path = Multitrack/FMFramework/FMMoveTableViewCell.m; sourceTree = "<group>"; };
+		2FFA2C1B157C1E9E00FDDB16 /* plus2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus2.png; path = ../../../../Desktop/plus2.png; sourceTree = "<group>"; };
+		2FFA2C1D157C20A100FDDB16 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FFA2C1E157C20A100FDDB16 /* QuartzCore.framework in Frameworks */,
 				2F4D870F157BE262007E2A75 /* UIKit.framework in Frameworks */,
 				2F4D8711157BE262007E2A75 /* Foundation.framework in Frameworks */,
 				2F4D8713157BE262007E2A75 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +69,7 @@
 		2F4D86FF157BE261007E2A75 = {
 			isa = PBXGroup;
 			children = (
+				2F4D872F157BF949007E2A75 /* README.markdown */,
 				2F4D8714157BE262007E2A75 /* Multitrack */,
 				2F4D870D157BE262007E2A75 /* Frameworks */,
 				2F4D870B157BE262007E2A75 /* Products */,
@@ -67,6 +87,7 @@
 		2F4D870D157BE262007E2A75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2FFA2C1D157C20A100FDDB16 /* QuartzCore.framework */,
 				2F4D870E157BE262007E2A75 /* UIKit.framework */,
 				2F4D8710157BE262007E2A75 /* Foundation.framework */,
 				2F4D8712157BE262007E2A75 /* CoreGraphics.framework */,
@@ -77,11 +98,16 @@
 		2F4D8714157BE262007E2A75 /* Multitrack */ = {
 			isa = PBXGroup;
 			children = (
+				2FFA2C0D157C1E5C00FDDB16 /* StopWatchBrain.h */,
+				2FFA2C0E157C1E5C00FDDB16 /* StopWatchBrain.m */,
+				2FFA2C0F157C1E5C00FDDB16 /* StopwatchDetailsViewController.h */,
+				2FFA2C10157C1E5C00FDDB16 /* StopwatchDetailsViewController.m */,
+				2FFA2C0B157C1E5C00FDDB16 /* FMViewController.h */,
+				2FFA2C0C157C1E5C00FDDB16 /* FMViewController.m */,
 				2F4D871D157BE262007E2A75 /* MultitrackAppDelegate.h */,
 				2F4D871E157BE262007E2A75 /* MultitrackAppDelegate.m */,
 				2F4D8720157BE262007E2A75 /* MainStoryboard.storyboard */,
-				2F4D8723157BE262007E2A75 /* MultitrackViewController.h */,
-				2F4D8724157BE262007E2A75 /* MultitrackViewController.m */,
+				2FFA2C1A157C1E6C00FDDB16 /* FMFramework */,
 				2F4D8715157BE262007E2A75 /* Supporting Files */,
 			);
 			path = Multitrack;
@@ -90,12 +116,25 @@
 		2F4D8715157BE262007E2A75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2FFA2C1B157C1E9E00FDDB16 /* plus2.png */,
 				2F4D8716157BE262007E2A75 /* Multitrack-Info.plist */,
 				2F4D8717157BE262007E2A75 /* InfoPlist.strings */,
 				2F4D871A157BE262007E2A75 /* main.m */,
 				2F4D871C157BE262007E2A75 /* Multitrack-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FFA2C1A157C1E6C00FDDB16 /* FMFramework */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA2C14157C1E6400FDDB16 /* FMMoveTableView.h */,
+				2FFA2C15157C1E6400FDDB16 /* FMMoveTableView.m */,
+				2FFA2C16157C1E6400FDDB16 /* FMMoveTableViewCell.h */,
+				2FFA2C17157C1E6400FDDB16 /* FMMoveTableViewCell.m */,
+			);
+			name = FMFramework;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +190,8 @@
 			files = (
 				2F4D8719157BE262007E2A75 /* InfoPlist.strings in Resources */,
 				2F4D8722157BE262007E2A75 /* MainStoryboard.storyboard in Resources */,
+				2F4D8730157BF949007E2A75 /* README.markdown in Resources */,
+				2FFA2C1C157C1E9E00FDDB16 /* plus2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +204,11 @@
 			files = (
 				2F4D871B157BE262007E2A75 /* main.m in Sources */,
 				2F4D871F157BE262007E2A75 /* MultitrackAppDelegate.m in Sources */,
-				2F4D8725157BE262007E2A75 /* MultitrackViewController.m in Sources */,
+				2FFA2C11157C1E5C00FDDB16 /* FMViewController.m in Sources */,
+				2FFA2C12157C1E5C00FDDB16 /* StopWatchBrain.m in Sources */,
+				2FFA2C13157C1E5C00FDDB16 /* StopwatchDetailsViewController.m in Sources */,
+				2FFA2C18157C1E6400FDDB16 /* FMMoveTableView.m in Sources */,
+				2FFA2C19157C1E6400FDDB16 /* FMMoveTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +320,7 @@
 				2F4D872A157BE262007E2A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
